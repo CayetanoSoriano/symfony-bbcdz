@@ -69,7 +69,8 @@ class News
     public function setTitle($title)
     {
         $this->title = $title;
-    
+        $this->setSlug(strtolower(str_replace(' ','-',$title)));
+
         return $this;
     }
 

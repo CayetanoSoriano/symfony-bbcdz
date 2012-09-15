@@ -2,14 +2,14 @@ parameters:
     database_driver:   pdo_mysql
     database_host:     localhost
     database_port:     ~
-    database_name:     symfony
-    database_user:     root
-    database_password: ~
+    database_name:     bb_cdz
+    database_user:     bbdemo
+    database_password: demodemo
 
     mailer_transport:  smtp
     mailer_host:       localhost
     mailer_user:       ~
     mailer_password:   ~
 
-    locale:            en
-    secret:            ThisTokenIsNotSoSecretChangeIt
+    locale:            es
+    secret:            asjdfjaskdfjladsjfkaldjiuaiodfuoi288
