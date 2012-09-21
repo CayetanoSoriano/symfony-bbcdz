@@ -21,6 +21,8 @@ class AppKernel extends Kernel
             new JMS\SecurityExtraBundle\JMSSecurityExtraBundle(),
             new BbCdz\NewsBundle\BbCdzNewsBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
+            new FOS\UserBundle\FOSUserBundle(),
+            new candgo\UserBundle\candgoUserBundle(),
             );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
